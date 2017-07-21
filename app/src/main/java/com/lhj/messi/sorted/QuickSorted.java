@@ -6,18 +6,12 @@ package com.lhj.messi.sorted;
 
 public class QuickSorted {
     public static void getQuickValue(int[] arrays){
-        print(arrays);
+        Print.printArrys(arrays);
         putThisMethod(arrays,0,arrays.length-1);
-        print(arrays);
+        Print.printArrys(arrays);
     }
 
-    private static void print(int[] arrays){
-        StringBuilder stringBuilder = new StringBuilder();
-        for (int i=0;i<arrays.length;i++){
-            stringBuilder.append(arrays[i]+" ");
-        }
-        Logger.d(stringBuilder.toString());
-    }
+
 
     private static void putThisMethod(int[] arrays,int start,int end){
         if (start <end){

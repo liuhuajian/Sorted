@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnClick(View view) {
         int[] arrays = {33,1,22,5,7,32,11,88,102};
-        QuickSorted.getQuickValue(arrays);
+//        QuickSorted.getQuickValue(arrays);
+        SelectSorted.getSelectSort(arrays);
 //        MaoPaoSorted.sortNumberMaoPao(arrays);
     }
 }

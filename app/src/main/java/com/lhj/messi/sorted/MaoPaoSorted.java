@@ -15,10 +15,6 @@ public class MaoPaoSorted {
                 }
             }
         }
-        StringBuilder stringBuilder = new StringBuilder();
-        for (int i=0;i<arrays.length;i++){
-            stringBuilder.append(arrays[i]+" ");
-        }
-        Logger.d(stringBuilder.toString());
+        Print.printArrys(arrays);
     }
 }
